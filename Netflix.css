@@ -1,0 +1,399 @@
+.background-image-home {
+  background-image: url(netflix-background-image.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  padding-bottom: 20px;
+}
+
+#netflix-language-navbar {
+  height: 120px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#netflix {
+  font-size: 45px;
+  color: #fa0505;
+  padding-left: 35px;
+  padding: center;
+}
+
+#language {
+  width: 1180px;
+  border: none;
+  padding-left: 900px;
+  margin-left: 15px;
+}
+
+#sign-up {
+  margin-left: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#msg {
+  font-size: 4rem;
+  font-weight: 1500px;
+  color: white;
+  text-align: center;
+}
+
+#offer {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+}
+
+#ready-to-watch {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+#email-address {
+  margin-top: 25px;
+  margin-left: 30rem;
+  height: 40px;
+  width: 310px;
+  padding-left: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#get-started {
+  height: 45px;
+  width: 195px;
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#total-content {
+  background-color: rgb(29, 29, 29);
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+#trending-now {
+  color: white;
+  font-size: 25px;
+  font-family: unset;
+  padding-top: 0px;
+  margin-top: 20px;
+  padding-left: 150px;
+  position: absolute;
+}
+
+#movie-template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  gap: 100px;
+  /* background-color: rgb(30, 30, 30); */
+  height: 250px;
+}
+
+#box1 {
+  height: 220px;
+  width: 220px;
+  border: 1px solid black;
+  background-image: url(flower_photo.jpg.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+#box2 {
+  height: 220px;
+  width: 220px;
+  border: 1px solid black;
+  background-image: url(flower_photo.jpg.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+#box3 {
+  height: 220px;
+  width: 220px;
+  border: 1px solid black;
+  background-image: url(flower_photo.jpg.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+#box4 {
+  height: 220px;
+  width: 220px;
+  border: 1px solid black;
+  background-image: url(flower_photo.jpg.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+#box5 {
+  height: 220px;
+  width: 220px;
+  border: 1px solid black;
+  background-image: url(flower_photo.jpg.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+/*===========================Reason to join=======================*/
+#reason-to-join {
+  color: white;
+  font-family: unset;
+  font-size: 1.755rem;
+  font-weight: 500px;
+  /* background-color: rgb(30, 30, 30); */
+  width: 1505px;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-left: 160px;
+}
+
+.reason-to-join-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#enjoy-on-your-tv {
+  height: 250px;
+  width: 270px;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-top: 30px;
+  font-family: unset;
+  font-family: 20px;
+  background: linear-gradient(180deg, #1c1d3a 0%, #2e2c5e 50%, #44306e 100%);
+}
+
+#download-your-shows-to-watch-offline {
+  height: 250px;
+  width: 270px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
+  font-family: unset;
+  font-size: 20px;
+  background: linear-gradient(180deg, #1c1d3a 0%, #2e2c5e 50%, #44306e 100%);
+}
+
+#watch-everywhere {
+  height: 250px;
+  width: 270px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
+  font-family: unset;
+  font-size: 20px;
+  background: linear-gradient(180deg, #1c1d3a 0%, #2e2c5e 50%, #44306e 100%);
+}
+
+#create-profiles-for-kids {
+  height: 250px;
+  width: 270px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
+  font-family: unset;
+  font-size: 20px;
+  background: linear-gradient(180deg, #1c1d3a 0%, #2e2c5e 50%, #44306e 100%);
+}
+/*---------------------------Queries by user------------------------------*/
+#ferenquantly-asked {
+  font-family: sans-serif;
+  font-size: 1.755rem;
+  font-weight: 500px;
+  margin-left: 140px;
+  padding-top: 20px;
+  color: white;
+}
+
+.collapsible {
+  background-color: #7a7676;
+  color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 1220px;
+  border: none;
+  text-align: left;
+  padding-left: 40px;
+  outline: none;
+  font-size: 25px;
+  margin: 5px;
+  margin-left: 140px;
+  margin-right: 130px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #bebcbc;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-left: 140px;
+  width: 1180px;
+}
+
+#create-restart-membership {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+/*--------------------Second-Email----------------------*/
+#second-email {
+  /* border: 2px solid black; */
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#email {
+  height: 50px;
+  width: 30rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 10px;
+  font-size: 15px;
+  color: rgb(110, 106, 106);
+}
+
+#Get-Started {
+  height: 50px;
+  width: 200px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 500px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#question {
+  padding-left: 150px;
+  font-family: unset;
+  font-size: 20px;
+  font-weight: 700px;
+  color: white;
+}
+
+/* ---------------------------------Footer Area------------------------------- */
+#footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  /* border: 1px solid black; */
+}
+
+#footer-one {
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  /* color: white; */
+  padding-left: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+/* Anchor tag use hua hai esliye text color white nhi aa raha eske liye dusra property lgana pdega */
+
+#footer-two {
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  color: white;
+  padding-left: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+#footer-three {
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  color: white;
+  padding-left: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+#footer-four {
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  color: white;
+  padding-left: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+#language2 {
+  margin-left: 150px;
+  margin-bottom: 25px;
+}
+
+#netflix-india {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 150px;
+  color: white;
+}
+
+#reCAPTCHA {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 150px;
+  color: white;
+}
+
+@media screen and (min-width: 760px) {
+  /* body {
+    background-color: green;
+    font-size: 16px;
+  } */
+  .container {
+    max-width: 960px;
+    margin: 0px;
+  }
+}

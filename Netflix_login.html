@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Log-in</title>
+    <style>
+      body {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+        background-size: cover;
+        height: 700px;
+      }
+
+      .dark {
+        background-color: black;
+        color: white;
+      }
+
+      .light {
+        background-color: #fff;
+        color: black;
+      }
+      #netflix-img {
+        color: red;
+        height: 200px;
+        width: 270px;
+        padding-left: 100px;
+        padding-top: 15px;
+        opacity: 0.7;
+        background-repeat: right;
+        background-repeat: bottom;
+      }
+
+      #container {
+        color: white;
+        height: 660px;
+        width: 557px;
+        margin-left: 500px;
+        border-radius: 2px;
+        /* border: 2px solid white; */
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+
+      #sign-in-box {
+        padding-top: 10px;
+        padding-left: 40px;
+      }
+
+      #sign-in {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #email {
+        margin: 5px;
+        height: 40px;
+        width: 400px;
+        border-radius: 5px;
+      }
+
+      #password {
+        margin: 5px;
+        height: 40px;
+        width: 400px;
+        border-radius: 5px;
+      }
+
+      #sign-button {
+        height: 40px;
+        width: 405px;
+        margin: 7px;
+        color: white;
+        background-color: red;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #or {
+        padding-left: 205px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #sign-code {
+        height: 40px;
+        width: 405px;
+        margin: 7px;
+        background-color: rgba(128, 128, 128, 0.4);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #forgot-password {
+        padding-left: 160px;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      #forgot-password:hover {
+        text-decoration: none;
+      }
+
+      #remember-now {
+        font-size: 40px;
+      }
+
+      #new-to-netflix {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      #new-to-netflix,
+      a {
+        color: white;
+      }
+
+      #msg {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      /*==================Footer=====================*/
+      #msg2 {
+        height: 150px;
+        width: 1600px;
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <button id="mode">Change Mode</button>
+    <!-- <img id="netflix-img" src="netflix_logo3.jpg.jpg" alt="" title="Netflix" /> -->
+     <img id="netflix-img" src="Netflix.png.png" alt="" title="Netflix"/>
+
+    <div id="container">
+      <div id="sign-in-box">
+        <p id="sign-in"><b>Sign In</b></p>
+        <input id="email" type="email" placeholder="Phone Number or e-mail" />
+        <br/>
+        <input id="password" type="password" placeholder="Password" />
+        <br/>
+        <button id="sign-button">Sign-in</button>
+        <p id="or">OR</p>
+        <button id="sign-code">Use a sign-in-code</button>
+        <p id="forgot-password">Forgot Password?</p>
+        <input type="checkbox" name="" id="remember-now" />Remember Me
+        <p id="new-to-netflix">New to Netflix. <a href="#">Sign up Now</a></p>
+        <br />
+        <h5 id="msg">
+          This page is protected by Google reCAPTCHA to
+          <br />
+          ensure you're not a bot
+          <br />
+          <a href="#">Learn More.</a>
+        </h5>
+      </div>
+    </div>
+    <!-- <div> -->
+      <footer>
+        <p id="msg2">Question ?</p>
+      </footer>
+    <!-- </div> -->
+
+
+    <script src="Netflix_login.js"></script>
+  </body>
+</html>
